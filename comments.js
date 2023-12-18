@@ -83,4 +83,4 @@ var server = http.createServer(function(request, response) {
       // Error
       response.writeHead(404, {
         'Content-Type': 'text/html'
-      });
+      })};
